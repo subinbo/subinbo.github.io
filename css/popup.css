@@ -122,13 +122,14 @@
     padding-top: 110px;
 }
 
+#popup:nth-child(2) .title h4{color: #ffad25;}
 #popup:nth-child(3) .title h4{color: #458acf;}
 #popup:nth-child(4) .title h4{color: #5b4e8e;}
 #popup:nth-child(5) .title h4{color: #fbd4e6;}
 #popup:nth-child(6) .title h4{color: #f7751f;}
-#popup:nth-child(7) .title h4{color: #d7eaf9;}
-#popup:nth-child(8) .title h4{color: #;}
+#popup:nth-child(7) .title h4{color: #;}
+#popup:nth-child(8) .title h4{color: #c3e9ed;}
 #popup:nth-child(9) .title h4{color: #546ba1;}
 #popup:nth-child(10) .title h4{color: #696989;}
 #popup:nth-child(11) .title h4{color: #1f5155;}
-#popup:nth-child(12) .title h4{color: #;}
+#popup:nth-child(12) .title h4{color: #240a3a;}
