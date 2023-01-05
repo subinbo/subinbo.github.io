@@ -122,7 +122,7 @@
     padding-top: 110px;
 }
 
-#popup:nth-child(2) .title h4{color: #ffad25 !important;} /*  */
+#popup:nth-child(2) .title h4.color4{color: #ffad25 !important;} /*  */
 #popup:nth-child(3) .title h4{color: #458acf;}
 #popup:nth-child(4) .title h4{color: #5b4e8e;}
 #popup:nth-child(5) .title h4{color: #fbd4e6;}
