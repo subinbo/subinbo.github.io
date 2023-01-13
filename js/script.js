@@ -40,11 +40,11 @@ $(function(){
 
             //마우스 휠을 위에서 아래로
             if(delta < 0){
-                if ($(this).next() != undefined){
+                if($(this).next() != undefined&& $(this).next().length > 0 ){
                     moveTop = $(this).next().offset().top;
                 }
             } else{ //마우스 휠을 아래에서 위로
-                if($(this).prev() != undefined){
+                if($(this).prev() != undefined && $(this).prev().length > 0 ){
                     moveTop = $(this).prev().offset().top;
                 }
 
