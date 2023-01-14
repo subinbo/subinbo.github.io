@@ -13,6 +13,7 @@
     left: 50%;
     transform: translate(-50%,.0);
     z-index: 1000;
+    display: none;
 }
 #menuWrap{
     /* width: 100%; */
@@ -114,6 +115,9 @@
     left: 900px;
     font-size: 1.7em;
     text-decoration: underline #f9b416;
+}
+#main .typed-cursor{
+    display: none;
 }
 #mainWrap{
     width: 1200px;

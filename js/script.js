@@ -39,16 +39,21 @@ $(function(){
             var moveTop = null;
 
             //마우스 휠을 위에서 아래로
-            if(delta < 0){
-                if($(this).next() != undefined&& $(this).next().length > 0 ){
-                    moveTop = $(this).next().offset().top;
-                }
-            } else{ //마우스 휠을 아래에서 위로
-                if($(this).prev() != undefined && $(this).prev().length > 0 ){
-                    moveTop = $(this).prev().offset().top;
-                }
-
-            }
+			if (delta < 0){
+				if ($(this).next() != undefined && $(this).next().length > 0 ){
+					moveTop = $(this).next().offset().top;
+				}else {
+                    return;
+                   }
+				
+			//마우스휠을 아래에서 위로
+			} else{
+				if ($(this).prev() != undefined && $(this).prev().length > 0 ){
+					moveTop = $(this).prev().offset().top;
+				}else {
+                    return;
+                   }
+			}
             //화면 이동 0.5초
             $('html,body').stop().animate({
                 scrollTop: moveTop + 'px'
@@ -58,6 +63,7 @@ $(function(){
 
         });
     });
+    
 
     $("#square").flip({
 		trigger:"hover",
@@ -68,3 +74,4 @@ $(function(){
 
 
 });
+

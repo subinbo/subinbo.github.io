@@ -11,6 +11,4 @@ $(function(){
             header.hide(); 
         }
     });
-
-
 });
