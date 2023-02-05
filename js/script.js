@@ -1,7 +1,7 @@
 $(function(){
         //메뉴 클릭시 페이지로 이동
         var menu = $('#menuWrap>ul>li');
-        var contents = $('#contents>div');
+        var contents = $('#contents>div'); 
     
         menu.click(function(event){
             event.preventDefault(); //a링크의 속성 없애기
@@ -10,7 +10,7 @@ $(function(){
             var section = contents.eq(i) //i순번에 해당컨텐츠를 section에 담음
             var tt = section.offset().top;
     
-            $('html,hody').stop().animate({scrollTop:tt});
+            $('html,body').stop().animate({scrollTop:tt});
         });
         //스크롤 이동시 메뉴와 버튼 활성화
 	$(window).scroll(function(){
